@@ -1,5 +1,5 @@
 {
-  "plugins": ["react", "prettier"],
+  "plugins": ["react" ],
   "settings": {
     "react": {
       "version": "16.0"
@@ -13,11 +13,5 @@
     "plugin:import/warnings"
   ],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
-    ]
   }
 }
