@@ -2,21 +2,40 @@
 
 A todo app built with React + Redux.
 
-[![Build Status](https://travis-ci.org/arthur-melo/just-another-todo-app.svg?branch=master)](https://travis-ci.org/arthur-melo/just-another-todo-app)
-[![codecov](https://codecov.io/gh/arthur-melo/just-another-todo-app/branch/master/graph/badge.svg)](https://codecov.io/gh/arthur-melo/just-another-todo-app)
-[![renovate-app badge](https://img.shields.io/badge/renovate-app-blue.svg)](https://renovatebot.com/)
 
 ## Demo
 
-You can access the final project at: [just-another-todo-app.now.sh](https://just-another-todo-app.now.sh/) 👈
+To get the project, clone the repo
+
+```
+git clone https://github.com/OldTownIT/just-another-todo-app.git
+```
 
 ## Pre-requisites
 
 - [NodeJS](https://nodejs.org)
 
-## Usage
+You will need node version `16.14.1`
 
-If you want to build from source, make sure that NodeJS is installed and download dependencies by issuing:
+This version of node is a few years old. You can use nvm to manage various versions.
+
+https://github.com/nvm-sh/nvm
+
+[Installing nvm on Windows](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows#install-nvm-windows-nodejs-and-npm)
+
+
+You will get better results if you first **REMOVE** all versions of node, and then install NVM, and then let NVM install specific versions that you want.
+
+```
+nvm list
+nvm install 16.14.1
+nvm use 16.14.1
+```
+
+
+## Installing the app
+
+CD into the directory where you installed the todo app.  And then run:
 
 ```bash
 npm install
@@ -27,6 +46,8 @@ And then, to run the project:
 ```bash
 npm run start
 ```
+
+If it runs successfully, it will start a server and run the app.
 
 ## Built With
 
