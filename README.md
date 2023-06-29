@@ -8,7 +8,7 @@ A todo app built with React + Redux.
 To get the project, clone the repo
 
 ```
-git clone https://github.com/OldTownIT/just-another-todo-app.git
+git clone https://github.com/OldTownIT/just-another-todo-app.git todo-app
 ```
 
 ## Pre-requisites
@@ -24,7 +24,7 @@ https://github.com/nvm-sh/nvm
 [Installing nvm on Windows](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows#install-nvm-windows-nodejs-and-npm)
 
 
-You will get better results if you first **REMOVE** all versions of node, and then install NVM, and then let NVM install specific versions that you want.
+If you plan to use NVM, you will get better results if you first **REMOVE** all versions of node.  Then install NVM, and then let NVM install specific versions that you want.
 
 ```
 nvm list
@@ -47,7 +47,7 @@ And then, to run the project:
 npm run start
 ```
 
-If it runs successfully, it will start a server and run the app.
+If successful, it will start a server and run the app.
 
 ## Built With
 
